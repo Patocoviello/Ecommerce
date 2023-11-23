@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Noto+Sans+Linear+B&family=Poppins:wght@200;900&display=swap');
+
+.form-alta {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: rgba(29, 74, 8, 0.546);
+    box-shadow: 39px 39px 49px -10px rgba(0, 0, 0, 0.45);
+    width: 55%;
+    margin: 15px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+}
+main label {
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+main label::after {
+    content: ' :';
+}
+
+main label[for="envio"]::after {
+    content: none;
+}
+
+main input {
+    width: 70%;
+    height: 35px;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    background-color: #457858;
+}
+main input:focus-visible{
+    outline: none;
+}
+
+main label[for="envio"] {
+    display: inline-block;
+}
+
+main input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+main button {
+    margin: 10px auto;
+    box-shadow: 0px 10px 15px -5px #3c6b27;
+    background: linear-gradient(to bottom, #67964f 5%, #6ac73b 100%);
+    background-color: #67964f;
+    border-radius: 7px;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 7px 21px;
+    text-shadow: 0px 3px 6px #5b8a3c;
+}
+
+#edadD,
+#edadH {
+    width: 55%;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+}
+
+main form input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+main form input:valid {
+    box-shadow: 0 0 5px 1px rgb(0, 255, 21);
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2.5rem;
+}
+
+table {
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: auto;
+    text-align: center;
+}
+th,
+td {
+    font-size: 0.8rem;
+    border: 1px solid white;
+    width: 10%;
+    height: 4%;
+    padding: 10px;
+}
+
+th {
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(16, 48, 20);
+    box-shadow: 39px 39px 49px -10px rgba(0, 0, 0, 0.45);
+}
